@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.logo {
+    height: 60px;
+    width: 70px;
+}
+
+#nav-name1 {
+    font-weight: bold;
+}
+
+#nav-name2 {
+    font-weight: bold;
+}
+
+#nav-name3 {
+    font-weight: bold;
+}
+
+#nav-name4 {
+    font-weight: bold;
+}
+
+.explore-menu-cont {
+    background-color: #f9fbfe;
+    padding-top: 95px;
+    padding-bottom: 16px;
+}
+
+.explore-heading {
+    font-size: 28px;
+    font-weight: bold;
+    font-family: roboto;
+
+}
+
+.explore-card {
+    background-color: white;
+    border-radius: 16px;
+}
+
+.explore-image {
+    border-radius: 16px;
+}
+
+.starters-name {
+    font-size: 20px;
+    font-family: roboto;
+    font-weight: bold;
+}
+
+.follow-section-cont {
+    background-color: white;
+    text-align: center;
+}
+
+.follow-heading {
+    font-family: roboto;
+    font-weight: 700;
+    font-size: 28px;
+    text-align: center;
+}
+
+.icon-container {
+    width: 80px;
+    height: 80px;
+    padding-top: 22px;
+    padding-bottom: 14px;
+    background-color: black;
+    padding-right: 16px;
+    padding-left: 22px;
+    margin: 15px;
+    border-radius: 40px;
+
+
+}
+
+.icon {
+    font-size: 35px;
+    color: blue;
+
+}
+
+.logo-last-cont {
+    background-color: black;
+}
+
+.logo-last-img {
+    width: 120px;
+
+}
+
+.email {
+    font-size: 20px;
+    font-family: roboto;
+    color: white;
+}
+
+.address-para {
+    font-size: 16px;
+    font-family: roboto;
+    color: white;
+}
