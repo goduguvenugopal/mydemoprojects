@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://kit.fontawesome.com/6745983728.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="amazon fixed-top">
+        <div class="icon-cont1 ">
+            <i class="fa-solid fa-magnifying-glass icon"></i>
+        </div>
+        <input type="search" class="search-input" placeholder=" Search Amazon.in">
+        <div class="icon-cont2 ">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-mic mic-icon" viewBox="0 0 16 16">
+                <path d="M3.5 6.5A.5.5 0 0 1 4 7v1a4 4 0 0 0 8 0V7a.5.5 0 0 1 1 0v1a5 5 0 0 1-4.5 4.975V15h3a.5.5 0 0 1 0 1h-7a.5.5 0 0 1 0-1h3v-2.025A5 5 0 0 1 3 8V7a.5.5 0 0 1 .5-.5z" />
+                <path d="M10 8a2 2 0 1 1-4 0V3a2 2 0 1 1 4 0v5zM8 0a3 3 0 0 0-3 3v5a3 3 0 0 0 6 0V3a3 3 0 0 0-3-3z" />
+            </svg>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-qr-code-scan scan-icon" viewBox="0 0 16 16">
+            <path d="M0 .5A.5.5 0 0 1 .5 0h3a.5.5 0 0 1 0 1H1v2.5a.5.5 0 0 1-1 0v-3Zm12 0a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0V1h-2.5a.5.5 0 0 1-.5-.5ZM.5 12a.5.5 0 0 1 .5.5V15h2.5a.5.5 0 0 1 0 1h-3a.5.5 0 0 1-.5-.5v-3a.5.5 0 0 1 .5-.5Zm15 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1 0-1H15v-2.5a.5.5 0 0 1 .5-.5ZM4 4h1v1H4V4Z" />
+            <path d="M7 2H2v5h5V2ZM3 3h3v3H3V3Zm2 8H4v1h1v-1Z" />
+            <path d="M7 9H2v5h5V9Zm-4 1h3v3H3v-3Zm8-6h1v1h-1V4Z" />
+            <path d="M9 2h5v5H9V2Zm1 1v3h3V3h-3ZM8 8v2h1v1H8v1h2v-2h1v2h1v-1h2v-1h-3V8H8Zm2 2H9V9h1v1Zm4 2h-1v1h-2v1h3v-2Zm-4 2v-1H8v1h2Z" />
+            <path d="M12 9h2V8h-2v1Z" />
+        </svg>
+    </div>
+
+    <div class="location-cont shadow pt-1 pl-2">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt location-icon" viewBox="0 0 16 16">
+            <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z" />
+            <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
+        </svg>
+        <h class="head-location">Delivery to venu - Kurnool 518001</h>
+        <i class="fa-solid fa-angle-down angle-icon"></i>
+    </div>
+
+
+    <div class=" categories-card pl-3 pr-3 pt-2">
+        <div class="img-main-cont mr-2">
+            <a href="https://www.amazon.in/s?k=electronics&ref=nb_sb_noss" target="_blank"><img src="https://m.media-amazon.com/images/I/41cf7cXivDL._AC_SY400_.jpg" class="img-categories" /></a>
+            <h class="head-categories">Electronics</h>
+        </div>
+
+        <div class="img-main-cont mr-2">
+            <a href="https://www.amazon.in/s?k=women+tops&crid=X6H9JSQGJ6TM&sprefix=%2Caps%2C201&ref=nb_sb_ss_recent_2_0_recent" target="_blank"><img src="https://m.media-amazon.com/images/I/81CSw4UjL5L._AC_SY400_.jpg" class="img-categories"></a>
+            <h class="head-categories">Fashion</h>
+        </div>
+
+        <div class="img-main-cont mr-2">
+            <a href="https://www.amazon.in/s?k=kitchen" target="_blank"><img src="https://m.media-amazon.com/images/I/81LZmESnkdL._AC_SY400_.jpg" class="img-categories" /></a>
+            <h class="head-categories">Kitchen</h>
+        </div>
+
+        <div class="img-main-cont mr-2">
+            <a href="https://www.amazon.in/s?k=bangles&crid=1VR7QDZDPPT59&sprefix=bangles%2Caps%2C286&ref=nb_sb_noss_1" target="_blank"><img src="https://m.media-amazon.com/images/I/61uSBWp83IL._AC_SY400_.jpg" class="img-categories" /></a>
+            <h class="head-categories">Bangles</h>
+        </div>
+
+        <div class="img-main-cont mr-2">
+            <a href="https://www.amazon.in/s?k=fitness&crid=ZB6AB6URBYC6&sprefix=bfitnes%2Caps%2C300&ref=nb_sb_ss_inft-rank-pairwise-override-in-t3_3_7" target="_blank"><img src="https://m.media-amazon.com/images/I/51Wexq2UEtL._AC_SY400_.jpg" class="img-categories" /></a>
+            <h class="head-categories">Fitness</h>
+        </div>
+        <div class="img-main-cont">
+            <a href="https://www.amazon.in/s?k=bags+for+mens&i=computers&crid=24GVC5BP2Q4HL&sprefix=bags%2Ccomputers%2C269&ref=nb_sb_ss_ts-doa-p_2_4" target="_blank"><img src=" https://m.media-amazon.com/images/I/315edNS5waL._SX300_SY300_QL70_FMwebp_.jpg" class="img-categories" /></a>
+            <h class="head-categories">Bags</h>
+        </div>
+    </div>
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-interval="1500">
+                <a href="https://www.amazon.in/s?k=men+footwear" target="_blank"><img src="https://images-eu.ssl-images-amazon.com/images/G/31/img23/Softlines_JWL_SH_GW_Assets/July_23/ATF/Unrec/OneCard/Shoes/Shoes_3000._CB600652809_.jpg" class="d-block w-100" alt="..."></a>
+            </div>
+            <div class="carousel-item" data-interval="1500">
+                <a href="https://www.amazon.in/s?k=water+bottle+and+lunch&crid=1FN43PI3B5QAU&sprefix=water+bottle+and+lunch%2Caps%2C681&ref=nb_sb_noss_2" target="_blank"> <img src="https://images-eu.ssl-images-amazon.com/images/G/31/vendorcentral/supporthub/trainingCourses/learningPaths/5300-Kitchen---Water-bottles--Lunch-box--hero-v2-3000-x-1200-_Under_1._CB601243436_.jpg
+" class="d-block w-100" alt="..."></a>
+            </div>
+            <div class="carousel-item" data-interval="1500">
+                <a href="https://www.amazon.in/s?k=groceries&crid=2FUN0VB5BVX4S&sprefix=groceries%2Caps%2C262&ref=nb_sb_noss_1" target="_blank"><img src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/Baby/cnnjpp1/Baby/D92807365-_1_Tallhero_2xx._CB598669664_.jpg
+" class="d-block w-100" alt="..."></a>
+            </div>
+            <div class="carousel-item" data-interval="1500">
+                <a href="https://www.amazon.in/s?k=mobiles&crid=24E9TOL71BI63&sprefix=mobiles%2Caps%2C327&ref=nb_sb_noss_1" target="_blank"><img src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/Wireless/Shreyansh/BAU/Unrexc/D70978891_INWLD_BAU_Unrec_Uber_PC_Hero_3000x1200._CB594707876_.jpg" class="d-block w-100" alt="..."></a>
+            </div>
+            <div class="carousel-item" data-interval="1500">
+                <a href="https://www.amazon.in/s?k=men+dres&crid=2QHVUW7TFLG2&sprefix=men+dres%2Caps%2C248&ref=nb_sb_noss_2" target="_blank"> <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img2020/img21/apparelGW/julyatf23/unrec/one/MA_3000._CB598906425_.jpg" class="d-block w-100" alt="..."></a>
+            </div>
+            <div class="carousel-item" data-interval="1500">
+                <a href="https://www.amazon.in/s?k=teddys&crid=2FIII55OYVPLZ&sprefix=teddys%2Caps%2C341&ref=nb_sb_noss_1" target="_blank"> <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/Toys/GW/GW-Hero-PC_BBAug23_Soft-toys_with-Apay_Lifestyle_2x._CB597740150_.jpg" class="d-block w-100" alt="..."></a>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+    <div class="cont pb-2 pt-3  d-flex">
+        <div class="row row-cont shadow bg-ino">
+
+            <div class="d-flex  flex-row">
+
+                <div class="amazon-pay pt-2   text-center mr-3 col-3">
+                    <a href="https://www.amazon.in/amazonpay/home/" target="_blank"> <img src=" https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9u4QiuKV4Qtu7u-emHoerYoHnXdD4ewnFiw&usqp=CAU" class="img-pay1" /></a>
+                </div>
+                <div class="amazon-pay    text-center col-3">
+                    <a href="https://www.primevideo.com/offers/nonprimehomepage/ref=dvm_pds_amz_in_as_s_gm_159_mkw_sRumWk2Nj-dc?gclid=Cj0KCQjw06-oBhC6ARIsAGuzdw0ilTo9nW-loRXBgZNU00uhXIk5E5xD1-wgI0eyB6pOFzUFx2diO_YaAom2EALw_wcB&mrntrk=pcrid_657901934579_slid__pgrid_84577172328_pgeo_9040222_x__adext__ptid_kwd-303629226711" target="_blank"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjMCwqInThVVRQtK5kA5P9kLo6uhdCaWhrSg&usqp=CAU" class="img-pay" /></a>
+                </div>
+            </div>
+            <div class="d-flex">
+                <div class="amazon-pay pt-2 text-center mr-3 col-3">
+                    <a href="https://www.amazon.in/amazonprime" target="_blank"><img src="  https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT29kh5vefMaQKZOySjTxr9qd7nx2j6yE4DSg&usqp=CAU" class="img-pay1" /></a>
+                </div>
+                <div class="amazon-pay text-center col-3">
+                    <a href="https://www.amazon.in/Prepaid-Mobile-Recharge/s?k=Prepaid+Mobile+Recharge" target="_blank"><img src=" https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLXUt0rtaq8f3gL2BbzLpMvSv07pSrw0Ad0Q&usqp=CAU " class="img-pay" /></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="fashion-cont mr-3 shadow text-center">
+            <div class="prime-cont">
+                <h class="prime-head1">Women's clothes</h>
+            </div>
+            <a href="https://www.amazon.in/s?k=women+kurta+sets+with+dupatta&i=apparel&crid=2ITH7IA1XRFML&sprefix=women%2Capparel%2C285&ref=nb_sb_ss_ts-doa-p_2_5" target="_blank"><img src="https://m.media-amazon.com/images/I/61VAhYtFiyL._AC_SY400_.jpg" class="fashion-img"></a>
+        </div>
+    </div>
+    <hr />
+
+
+    <div class="pt-2 ">
+        <h1 class="keep-heading ml-3 pb-2"> Great Indian Festival | Starts 8th Oct</h1>
+        <div class="ml-3 mb-1 mr-3">
+            <a href="  https://www.amazon.in/l/90130123031/&ref_=ine_gw_j23_pccc_en_ecom_dr_see_all_en/?_encoding=UTF8&pd_rd_w=QlIGM&content-id=amzn1.sym.5fba7b31-9876-489b-bbaa-64f8409bdcd7&pf_rd_p=5fba7b31-9876-489b-bbaa-64f8409bdcd7&pf_rd_r=CF6FT8Q3YJ9GKSPRB5W4&pd_rd_wg=EYr8I&pd_rd_r=7cd858f3-70a6-4aaf-a157-7937c9652ed9&ref_=pd_gw_unk" target="_blank"><img src="  https://images-eu.ssl-images-amazon.com/images/G/31/Events/img23/Jupiter23/Homepage/J23_PC_CC_V2_1x._SY304_CB577183061_.jpg" class="deals-img w-100" /></a>
+        </div>
+        <a href="https://www.amazon.in/l/90130123031/&ref_=ine_gw_j23_pccc_en_ecom_dr_see_all_en/?_encoding=UTF8&pd_rd_w=QlIGM&content-id=amzn1.sym.5fba7b31-9876-489b-bbaa-64f8409bdcd7&pf_rd_p=5fba7b31-9876-489b-bbaa-64f8409bdcd7&pf_rd_r=CF6FT8Q3YJ9GKSPRB5W4&pd_rd_wg=EYr8I&pd_rd_r=7cd858f3-70a6-4aaf-a157-7937c9652ed9&ref_=pd_gw_unk" class="deals ml-3 " target="_blank">See all offers</a>
+    </div>
+    <hr />
+
+
+    <div class="trimmer-cont text-center pb- pt-1">
+        <a href="  https://www.amazon.in/s?k=computer%20accessories&i=aps&ref=nb_sb_ss_ts-doa-p_9_8&crid=2UOOGKH8IKCY4&sprefix=computer%2Caps%2C911" target="_blank"><img src=" https://images-eu.ssl-images-amazon.com/images/G/31/img21/H1/KSD/CEPC/New/Homepage_DesktopHeroTemplate_3000x1200_KSD._CB577206149_.jpg" class="trimmer-img" /></a>
+        <div class="sponsor-cont pl-2 pr-2">
+            <a href=" https://www.amazon.in/s?k=computer%20accessories&i=aps&ref=nb_sb_ss_ts-doa-p_9_8&crid=2UOOGKH8IKCY4&sprefix=computer%2Caps%2C911" class="deals" target="_blank">See all deals</a>
+            <h class="head-sponsor">Sponsored</h>
+        </div>
+    </div>
+    <hr />
+
+
+
+    <div class="conty pt-3 m-3  shadow">
+        <h1 class="keep-heading ml-3">Keep shopping for women's dresess</h1>
+        <div class="d-flex pt-1">
+            <div class="women-clothes-cont d-flex flex-column ml-3">
+                <a href="https://www.amazon.in/Rajnandini-Cambric-Embroidered-Straight-Dupatta/dp/B097R5D3C1/?_encoding=UTF8&pd_rd_w=8dSAs&content-id=amzn1.sym.aff93425-4e25-4d86-babd-0fa9faf7ca5d%3Aamzn1.symc.36bd837a-d66d-47d1-8457-ffe9a9f3ddab&pf_rd_p=aff93425-4e25-4d86-babd-0fa9faf7ca5d&pf_rd_r=6WDR0AV3RYT7DA58VT58&pd_rd_wg=GHP2y&pd_rd_r=e2fee87e-040a-442e-803b-9b63724d561b&ref_=pd_gw_ci_mcx_mr_hp_atf_m " target="_blank"><img src="https://m.media-amazon.com/images/I/81Asi2PIvES._AC_SY240_.jpg " class="img-keep" /></a>
+                <h class="head-categories">Rajnandini women...</h>
+                <div class="d-flex">
+                    <div class="rupee-cont  ">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-currency-rupee rupee-icon" viewBox="0 0 16 16">
+                            <path d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4v1.06Z" />
+                        </svg>
+                    </div>
+                    <h class="amount-head">9499</h>
+                </div>
+            </div>
+            <div class="women-clothes-cont d-flex flex-column ml-5">
+                <a href="https://www.amazon.in/BFK-Womens-Printed-Dupatta-Ethnic/dp/B0B7QJKQN6/?_encoding=UTF8&pd_rd_w=F7fLC&content-id=amzn1.sym.9405da97-3906-4e61-a033-37b923aeb8d5&pf_rd_p=9405da97-3906-4e61-a033-37b923aeb8d5&pf_rd_r=6WDR0AV3RYT7DA58VT58&pd_rd_wg=GHP2y&pd_rd_r=e2fee87e-040a-442e-803b-9b63724d561b&ref_=pd_gw_ls_gwc_pc_en2_ " target="_blank"><img src="  https://m.media-amazon.com/images/I/61DprL9VfbL._AC_SY400_.jpg
+ " class="img-keep0" /></a>
+                <h class="head-categories">GoSriki women...</h>
+                <div class="d-flex">
+                    <div class="rupee-cont  ">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-currency-rupee rupee-icon" viewBox="0 0 16 16">
+                            <path d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4v1.06Z" />
+                        </svg>
+                    </div>
+                    <h class="amount-head">9500</h>
+                </div>
+            </div>
+        </div>
+        <div class="d-flex ">
+            <div class="women-clothes-cont d-flex flex-column ml-3">
+                <a href=" https://www.amazon.in/ANNI-DESIGNER-Straight-Printed-Yellow-NW_XL_Yellow_X-Large/dp/B0C8DJY6FZ/?_encoding=UTF8&pd_rd_w=8dSAs&content-id=amzn1.sym.aff93425-4e25-4d86-babd-0fa9faf7ca5d%3Aamzn1.symc.36bd837a-d66d-47d1-8457-ffe9a9f3ddab&pf_rd_p=aff93425-4e25-4d86-babd-0fa9faf7ca5d&pf_rd_r=6WDR0AV3RYT7DA58VT58&pd_rd_wg=GHP2y&pd_rd_r=e2fee87e-040a-442e-803b-9b63724d561b&ref_=pd_gw_ci_mcx_mr_hp_atf_m" target="_blank"><img src=" https://m.media-amazon.com/images/I/61IJjk5IsyL._AC_SY240_.jpg
+" class="img-keep" /></a>
+                <h class="head-categories">Anni Designer...</h>
+                <div class="d-flex">
+                    <div class="rupee-cont  ">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-currency-rupee rupee-icon" viewBox="0 0 16 16">
+                            <path d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4v1.06Z" />
+                        </svg>
+                    </div>
+                    <h class="amount-head">7999</h>
+                </div>
+            </div>
+            <div class="women-clothes-cont d-flex flex-column ml-5">
+                <a href=" https://www.amazon.in/ANNI-DESIGNER-Straight-Prem-Pink_XL_Pink_X-Large/dp/B0C3VK7LFS/?_encoding=UTF8&pd_rd_w=8dSAs&content-id=amzn1.sym.aff93425-4e25-4d86-babd-0fa9faf7ca5d%3Aamzn1.symc.36bd837a-d66d-47d1-8457-ffe9a9f3ddab&pf_rd_p=aff93425-4e25-4d86-babd-0fa9faf7ca5d&pf_rd_r=6WDR0AV3RYT7DA58VT58&pd_rd_wg=GHP2y&pd_rd_r=e2fee87e-040a-442e-803b-9b63724d561b&ref_=pd_gw_ci_mcx_mr_hp_atf_m" target="_blank"><img src=" https://m.media-amazon.com/images/I/613jNiFza5L._AC_SY240_.jpg " class="img-keep1" /></a>
+                <h class="head-categories">Rajnandini women...</h>
+                <div class="d-flex">
+                    <div class="rupee-cont  ">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-currency-rupee rupee-icon" viewBox="0 0 16 16">
+                            <path d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4v1.06Z" />
+                        </svg>
+                    </div>
+                    <h class="amount-head">8900</h>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <hr />
+
+
+    <div class="conty pt-3 m-3 pt-1 shadow">
+        <h1 class="keep-heading ml-3">Up to 60% | Styles for men</h1>
+        <div class="d-flex justify-content-center pt-1">
+            <div class="clothes-cont d-flex flex-column  mr-3">
+                <a href=" https://www.amazon.in/b?node=1968024031 " target="_blank"><img src=" https://images-eu.ssl-images-amazon.com/images/G/31/img22/Fashion/Gateway/BAU/BTF-Refresh/May/PF_MF/MF-1-372-232._SY232_CB636110853_.jpg
+ " class="img-60" /></a>
+                <h class="head-categories  mt-1">Clothing</h>
+            </div>
+            <div class="men-clothes-cont d-flex flex-column ">
+                <a href=" https://www.amazon.in/b/?_encoding=UTF8&node=1983518031&pd_rd_w=GVJKH&content-id=amzn1.sym.15903f7f-b969-4456-9c6f-850d69d6237a&pf_rd_p=15903f7f-b969-4456-9c6f-850d69d6237a&pf_rd_r=6WDR0AV3RYT7DA58VT58&pd_rd_wg=fw3hr&pd_rd_r=5164d057-118a-4948-8c83-74b6ad257d0e&ref_=pd_gw_unk " target="_blank"><img src=" https://images-eu.ssl-images-amazon.com/images/G/31/img22/Fashion/Gateway/BAU/BTF-Refresh/May/PF_MF/MF-2-372-232._SY232_CB636110853_.jpg " class="img-60" /></a>
+                <h class="head-categories  mt-1">Footwear</h>
+
+            </div>
+        </div>
+        <div class="d-flex justify-content-center mt-3 ">
+            <div class="clothes-cont d-flex flex-column mr-3">
+                <a href=" https://www.amazon.in/b/?_encoding=UTF8&node=2563504031&pd_rd_w=GVJKH&content-id=amzn1.sym.15903f7f-b969-4456-9c6f-850d69d6237a&pf_rd_p=15903f7f-b969-4456-9c6f-850d69d6237a&pf_rd_r=6WDR0AV3RYT7DA58VT58&pd_rd_wg=fw3hr&pd_rd_r=5164d057-118a-4948-8c83-74b6ad257d0e&ref_=pd_gw_unk " target="_blank"><img src=" https://images-eu.ssl-images-amazon.com/images/G/31/img22/Fashion/Gateway/BAU/BTF-Refresh/May/PF_MF/MF-3-372-232._SY232_CB636110853_.jpg " class="img-60" /></a>
+                <h class="head-categories mt-1">Watches</h>
+            </div>
+
+            <div class="men-clothes-cont d-flex flex-column">
+                <a href=" https://www.amazon.in/s?i=fashion&rh=n%3A87295952031%2Cp_36%3A19900-&s=luggage&fs=true&_encoding=UTF8&content-id=amzn1.sym.15903f7f-b969-4456-9c6f-850d69d6237a&pd_rd_r=5164d057-118a-4948-8c83-74b6ad257d0e&pd_rd_w=GVJKH&pd_rd_wg=fw3hr&pf_rd_p=15903f7f-b969-4456-9c6f-850d69d6237a&pf_rd_r=6WDR0AV3RYT7DA58VT58&qid=1690908433&rnid=1318502031&ref=pd_gw_unk " target="_blank"><img src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/Fashion/Gateway/BAU/BTF-Refresh/May/PF_MF/MF_4-372-232._SY232_CB636110853_.jpg" class="img-60" /></a>
+                <h class="head-categories  mt-1">Bags & wallets</h>
+            </div>
+        </div>
+        <a href=" https://www.amazon.in/s?k=deals&ref=nb_sb_noss" class="deals ml-3" target="_blank">See all deals</a>
+
+    </div>
+    <hr class="horizontal" />
+
+
+    <div class="conti  pt-2 pb-2 ml-3 shadow mr-3">
+        <h1 class="keep-heading ml-3 pb-3">Appliances for your home | Up to 55% off</h1>
+        <div class="parent-cont ">
+            <div class="">
+                <a href="https://www.amazon.in/Amazon-Basics-1200mm-Energy-Ceiling/dp/B0BRPW31LH/ref=sr_1_4?crid=151EHZFA9A2M4&keywords=amazon+basics+fan&qid=1695700622&s=kitchen&sprefix=amazon+basics+fan%2Ckitchen%2C256&sr=1-4 " target="_blank"><img src="  https://m.media-amazon.com/images/I/61nt66+QH5L.AC_SX500.jpg" class="img-child1" /></a>
+                <div class="d-flex">
+                    <h class="head-categories"> Amazon basics</h>
+                </div>
+            </div>
+            <div class="">
+                <a href=" https://www.amazon.in/s?k=havells&rh=n%3A4369221031&ref=nb_sb_noss" target="_blank"><img src=" https://m.media-amazon.com/images/I/61gSNwJGDEL.AC_SX500.jpg " class="img-child1" /></a>
+                <div class="d-flex">
+                    <h class="head-categories  "> Havells </h>
+                </div>
+            </div>
+            <div class="">
+                <a href="https://www.amazon.in/s?k=v-guard+geyser&i=kitchen&crid=2MMA5F082F3TZ&sprefix=v-gaurd+gey%2Ckitchen%2C2400&ref=nb_sb_ss_fb_1_11 " target="_blank"><img src="https://m.media-amazon.com/images/I/51-cyGLC3kL.AC_SX500.jpg " class="img-child1" /></a>
+                <div class="d-flex">
+                    <h class="head-categories  "> V-gaurd</h>
+                </div>
+            </div>
+            <div class="">
+                <a href=" https://www.amazon.in/s?k=v-guard+geyser&i=kitchen&crid=2MMA5F082F3TZ&sprefix=v-gaurd+gey%2Ckitchen%2C2400&ref=nb_sb_ss_fb_1_11" target="_blank"><img src=" https://m.media-amazon.com/images/I/41aR8Brd8gL.AC_SX500.jpg " class="img-child1" /></a>
+                <div class="d-flex">
+                    <h class="head-categories  "> V-gaurd</h>
+                </div>
+            </div>
+            <div class="">
+                <a href="https://www.amazon.in/s?k=crompton&i=kitchen&ref=nb_sb_noss " target="_blank"><img src=" https://m.media-amazon.com/images/I/61bMMtZoveL.AC_SX500.jpg " class="img-child1" /></a>
+                <div class="d-flex">
+                    <h class="head-categories  "> Crompton </h>
+                </div>
+            </div>
+            <div class="">
+                <a href="https://www.amazon.in/Usha-Bloom-Daffodil-Goodbye-Ceiling/dp/B07VQLXXVP/ref=sr_1_3?keywords=usha+fan&qid=1695700447&s=kitchen&sr=1-3 " target="_blank"><img src="  https://m.media-amazon.com/images/I/514PtfA3n7L.AC_SX500.jpg" class="img-child1" /></a>
+                <div class="d-flex">
+                    <h class="head-categories  ">USHA </h>
+                </div>
+            </div>
+            <div class="">
+                <a href="https://www.amazon.in/s?k=havells&rh=n%3A4369221031&ref=nb_sb_noss " target="_blank"><img src="https://m.media-amazon.com/images/I/51VWFIP5t3L.AC_SX500.jpg  " class="img-child1" /></a>
+                <div class="d-flex">
+                    <h class="head-categories  ">Havells </h>
+                </div>
+            </div>
+            <div class="">
+                <a href=" https://www.amazon.in/s?k=havells&rh=n%3A4369221031&ref=nb_sb_noss" target="_blank"><img src=" https://m.media-amazon.com/images/I/81rclwpwmYL.AC_SX500.jpg " class="img-child1" /></a>
+                <div class="d-flex">
+                    <h class="head-categories">Havells</h>
+                </div>
+            </div>
+            <div class="">
+                <a href="https://www.amazon.in/s?k=pedestal+fan&rh=n%3A4369221031&ref=nb_sb_noss " target="_blank"><img src=" https://m.media-amazon.com/images/I/51Ts4AN7wML.AC_SX500.jpg " class="img-child1" /></a>
+                <div class="d-flex">
+                    <h class="head-categories"> Orient electric</h>
+                </div>
+            </div>
+
+        </div>
+        <a href="https://www.amazon.in/s?k=fans+and+greysers+offers&i=kitchen&crid=4HKQ8TY1DG16&sprefix=fans+and+greysers+offers%2Ckitchen%2C749&ref=nb_sb_noss" class="deals ml-3" target="_blank">Explore offers</a>
+    </div>
+    <hr class="horizontal" />
+
+
+    <div class="gobuds-cont pb-2">
+        <h1 class="keep-heading ml-3 pb-1">Featured by GOVO</h1>
+        <div class="buds-cont p-3 d-flex shadow ml-3 mr-3 justify-content-center">
+            <a href="https://www.amazon.in/GOVO-GoBuds-445-Wireless-Earbuds/dp/B0C6Y3GYGC/ref=sr_1_4?crid=2Q6VLQAAQ9HBE&keywords=govo+earbuds&qid=1695702141&sprefix=govo%2Caps%2C399&sr=8-4" target="_blank"><img src="https://m.media-amazon.com/images/I/71Gibnk9bRL._AC_UY327_FMwebp_QL65_.jpg" class="buds-img pt-1" /></a>
+            <div class="d-flex flex-column  pl-2 ">
+                <h class="buds-head">GOVO Gobuds 445 wireless Earbuds: with 72H playtime.....</h>
+                <div class="mb-2">
+                    <i class="fa-solid fa-star star-icon"></i>
+                    <i class="fa-solid fa-star star-icon"></i>
+                    <i class="fa-solid fa-star star-icon"></i>
+                    <i class="fa-solid fa-star star-icon"></i>
+                    <i class="fa-regular fa-star star-icon1"></i>
+                    <h class="head-categories">63</h>
+                </div>
+                <h class="off-head"><span class="span-cont">74% off </span>Deal of the day</h>
+
+                <div class="">
+
+                    <h class="prime-head ml-0"> <i class="fa-solid fa-indian-rupee-sign iconrupee"></i>1,299 <span class="span-prime"><i class="fa-solid fa-indian-rupee-sign iconrupee1"></i>4,999.00</span><span class="prime-span1"> <i class="fa-solid fa-check check-icon"></i>prime</span></h>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <hr />
+
+
+    <div class="deals-cont mb-2 pb-2 pt-3">
+        <h1 class="keep-heading ml-3 pb-3">Trending Deals for you</h1>
+        <div class="deals-parent-cont   ">
+            <div class="">
+                <a href="https://www.amazon.in/s?k=fashion+dress+for+women&i=fashion&crid=1BETWNBMY1S64&sprefix=women+fashion%2Cfashion%2C7981&ref=nb_sb_ss_ts-doa-p_2_13 " target="_blank"><img src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/Fashion/Gateway/BAU/BTF-Refresh/May/PC_WF/WF1-372-232._SY232_CB636048992_.jpg" class="deals-img w-100" /></a>
+                <div class=" d-flex">
+                    <h class="off-head mt-2"><span class="span-cont">74% off </span>Deal of the day</h>
+                </div>
+            </div>
+            <div class="">
+                <a href="https://www.amazon.in/s?k=handbags+and+footwear&i=fashion&ref=nb_sb_noss" target="_blank"><img src=" https://images-eu.ssl-images-amazon.com/images/G/31/img22/Fashion/Gateway/BAU/BTF-Refresh/May/PC_WF/WF2-372-232._SY232_CB636048992_.jpg" class="deals-img w-100" /></a>
+                <div class=" d-flex">
+                    <h class="off-head  mt-2"><span class="span-cont">67% off </span>Deal of the day</h>
+                </div>
+            </div>
+            <div class="">
+                <a href="https://www.amazon.in/s?k=watches+for+both&i=fashion&crid=2AGTAC5Q3IKVZ&sprefix=watches+for+both%2Cfashion%2C330&ref=nb_sb_noss_2" target="_blank"><img src=" https://images-eu.ssl-images-amazon.com/images/G/31/img22/Fashion/Gateway/BAU/BTF-Refresh/May/PC_WF/WF4-372-232._SY232_CB636048992_.jpg" class="deals-img w-100" /></a>
+                <div class=" d-flex">
+                    <h class="off-head  mt-2"><span class="span-cont">70% off </span>Kickstarter Deal</h>
+                </div>
+            </div>
+            <div class="">
+                <a href="https://www.amazon.in/s?k=jwellary&i=fashion&crid=21NOJRIAO8GVS&sprefix=jwellary%2Cfashion%2C315&ref=nb_sb_noss_2" target="_blank"><img src=" https://images-eu.ssl-images-amazon.com/images/G/31/img22/Fashion/Gateway/BAU/BTF-Refresh/May/PC_WF/WF3-372-232._SY232_CB636048992_.jpg" class="deals-img w-100" /></a>
+                <div class=" d-flex">
+                    <h class="off-head  mt-2"><span class="span-cont">69% off </span>Deal</h>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+    <a href=" https://www.amazon.in/s?k=deals&crid=1NDVTUVN0OATR&sprefix=deals+%2Caps%2C211&ref=nb_sb_noss_2" class="deals ml-3 " target="_blank">See more</a>
+
+    <hr class="horizontal" />
+
+
+    <h1 class="keep-heading ml-3 pb-2">Watch, Chat & Shop LIVE</h1>
+    <div class="embed-responsive   embed-responsive-16by9">
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/JwVYmHkmxS0" allowfullscreen></iframe>
+    </div>
+    <hr class="horizontal" />
+
+
+
+    <div class="pt-2 ">
+        <h1 class="keep-heading ml-3 pb-2"> Bluetooth Calling Smartwatch starts at...</h1>
+        <div class="ml-3 mb-1 mr-3">
+            <a href=" https://www.amazon.in/s?hidden-keywords=B0B3RRWSF6+%7C+B0B5B6PQCT+%7C+B0BF57RN3K+%7C+B0B6BLTGTT+%7C+B0B854R7NS+%7C+B0B5LVS732+%7C+B0BJ72WZQ7+%7C+B09NVPSCQT+%7C+B0B53QFZPY+%7C+B0B3RSDSZ3+%7C+B0B5DDJNH4+%7C+B0BP18W8TM+%7C+B0BF563HB4+%7C+B09V12K8NT+%7C+B09YV4MW2T+%7C+B0B5LW5DFQ+%7C+B0B6BPX5S9+%7C+B09YV42QHZ+%7C+B0B5LWP12T+%7C+B0BF4YBLPX+%7C+B0BRJF98R9+%7C+B0B53NXFFR+%7C+B09RK7XWQS+%7C+B0BBVKRP7B+%7C+B0BMM4MBT2&_encoding=UTF8&content-id=amzn1.sym.55c4284b-4a0e-450c-8425-f5dfafc06e30&pd_rd_r=d55b3b07-f9bd-4aef-8528-11e5b75e83c8&pd_rd_w=CfPrI&pd_rd_wg=zOOX6&pf_rd_p=55c4284b-4a0e-450c-8425-f5dfafc06e30&pf_rd_r=XG16EX02C357S3SD67J0&ref=pd_gw_unk" target="_blank"><img src="  https://images-eu.ssl-images-amazon.com/images/G/31/img22/Wearables/PC_CategoryCard_758X608_1._SY608_CB614835787_.jpg" class="deals-img w-100" /></a>
+        </div>
+        <a href="  https://www.amazon.in/s?hidden-keywords=B0B3RRWSF6+%7C+B0B5B6PQCT+%7C+B0BF57RN3K+%7C+B0B6BLTGTT+%7C+B0B854R7NS+%7C+B0B5LVS732+%7C+B0BJ72WZQ7+%7C+B09NVPSCQT+%7C+B0B53QFZPY+%7C+B0B3RSDSZ3+%7C+B0B5DDJNH4+%7C+B0BP18W8TM+%7C+B0BF563HB4+%7C+B09V12K8NT+%7C+B09YV4MW2T+%7C+B0B5LW5DFQ+%7C+B0B6BPX5S9+%7C+B09YV42QHZ+%7C+B0B5LWP12T+%7C+B0BF4YBLPX+%7C+B0BRJF98R9+%7C+B0B53NXFFR+%7C+B09RK7XWQS+%7C+B0BBVKRP7B+%7C+B0BMM4MBT2&_encoding=UTF8&content-id=amzn1.sym.55c4284b-4a0e-450c-8425-f5dfafc06e30&pd_rd_r=d55b3b07-f9bd-4aef-8528-11e5b75e83c8&pd_rd_w=CfPrI&pd_rd_wg=zOOX6&pf_rd_p=55c4284b-4a0e-450c-8425-f5dfafc06e30&pf_rd_r=XG16EX02C357S3SD67J0&ref=pd_gw_unk" class="deals ml-3 " target="_blank">Shop Now</a>
+    </div>
+    <hr />
+
+    <div class="Featured-cont ml-3">
+        <h1 class="keep-heading ml- pb-2"> Featured Categories</h1>
+        <div class=" cotainer Featured-cont">
+            <div class="row">
+                <div class="col-4">
+                    <a href="https://www.amazon.in/b/?_encoding=UTF8&node=15124949031&pd_rd_w=GTjNA&content-id=amzn1.sym.60d8be58-e15a-4631-aa13-00e6784e64c2&pf_rd_p=60d8be58-e15a-4631-aa13-00e6784e64c2&pf_rd_r=CF6FT8Q3YJ9GKSPRB5W4&pd_rd_wg=jVdwc&pd_rd_r=b2a572a0-7961-43f6-a97e-03a11373b509&ref_=pd_gw_unk" target="_blank"><img src=" https://images-eu.ssl-images-amazon.com/images/G/31/img22/Fashion/Gateway/BAU/BTF-Refresh/May/PC-PFF/PFF-4-372-232._SY232_CB636055991_.jpg" class="featured-img" /></a>
+                    <div class="pt-1">
+                        <p class="head-feature">Women & Men Fashion | Up to 60% off</p>
+                    </div>
+                </div>
+                <div class="col-4 ">
+                    <a href="https://www.amazon.in/s?bbn=84514752031&rh=n%3A84514752031%2Cp_85%3A10440599031&_encoding=UTF8&content-id=amzn1.sym.1c82c58f-ba94-4c7f-addd-8abb3f123860&pd_rd_r=c293b8e2-0f43-4760-b0cb-47e7f46019e5&pd_rd_w=V1qZn&pd_rd_wg=UvrDL&pf_rd_p=1c82c58f-ba94-4c7f-addd-8abb3f123860&pf_rd_r=70TZB0G3M6HFGDQE396T&ref=pd_gw_unk" target="_blank"><img src=" https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/Irfan/GATEWAY/MSO/Appliances-QC-PC-186x116--B08CPQVLZT._SY232_CB667322346_.jpg" class="featured-img" /></a>
+                    <div class="pt-1">
+                        <p class=" head-feature">Electronic Appliances | Up to 70% off</p>
+                    </div>
+
+                </div>
+                <div class="col-4">
+                    <a href="https://www.amazon.in/b/ref=lng_PCCC/?_encoding=UTF8&node=77998608031&pd_rd_w=wff5X&content-id=amzn1.sym.43427020-90cb-4180-bab4-b30471942af3&pf_rd_p=43427020-90cb-4180-bab4-b30471942af3&pf_rd_r=XG16EX02C357S3SD67J0&pd_rd_wg=OLPe8&pd_rd_r=a75f67e7-580e-4e7b-9cdf-593d0779db5e&ref_=pd_gw_unk" target="_blank"><img src=" https://images-eu.ssl-images-amazon.com/images/G/31/img18/Lawn_Garden/Ud/MSO_May/compressed_748x608_compressed1-min._SY608_CB592294116_.jpg" class="featured-img" /></a>
+                    <div class="pt-1">
+                        <p class="head-feature">Garden essentials | Up to 70% off </p>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <a href="   " class="deals ml-3 " target="_blank">See all categories</a>
+
+    <hr />
+
+
+</body>
+
+</html>
