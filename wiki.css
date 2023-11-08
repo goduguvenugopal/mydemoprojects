@@ -1,0 +1,260 @@
+.button {
+    background-color: #DBECE7;
+    border: none;
+
+
+}
+
+
+.ete-head {
+    font-family: roboto;
+}
+
+.last-para {
+    font-family: roboto;
+    font-size: 13px;
+}
+
+.last-cont {
+    background-color: #bed4e6;
+}
+
+.hor-con {
+    border: solid 1px gray;
+}
+
+.list-cont {
+    border: solid 1px rgb(216, 216, 219);
+    background-color: rgb(232, 248, 249);
+}
+
+.list-sty {
+    list-style-type: square;
+}
+
+.co-head {
+    font-size: 15px;
+    font-family: roboto;
+}
+
+.co-head2 {
+    font-size: 15px;
+    font-family: roboto;
+    color: blue;
+
+}
+
+.co-cont {
+    display: flex;
+    justify-content: space-between;
+    border: solid 1px rgb(216, 216, 219);
+    background-color: rgb(232, 248, 249);
+}
+
+.scientific-head {
+    font-size: 16px;
+    font-family: roboto;
+    color: blue;
+    font-weight: bold;
+}
+
+.scientific-cont {
+    border: solid 1px rgb(216, 216, 219);
+    background-color: rgb(220, 224, 201);
+    display: flex;
+    justify-content: space-between;
+}
+
+.t-para-cont {
+    background-color: rgb(232, 248, 249);
+    border: solid 1px rgb(216, 216, 219);
+    text-align: center;
+}
+
+.t-para {
+    font-size: 13px;
+    font-family: Roboto;
+
+
+}
+
+.img-cont {
+    border: solid 1px rgb(216, 216, 219);
+    text-align: center;
+    background-color: rgb(232, 248, 249);
+
+}
+
+.img-ele {
+    padding-top: 10px;
+    height: 350px;
+    width: 250px;
+    padding-bottom: 10px;
+}
+
+.e-cont {
+    border: solid 1px rgb(216, 216, 219);
+    background-color: rgb(220, 224, 201);
+    text-align: center;
+}
+
+.e-head {
+    font-size: 16px;
+    font-family: roboto;
+    font-weight: bold;
+
+}
+
+.big-para {
+    font-size: 13px;
+    font-family: Roboto;
+
+}
+
+.ele-para {
+    font-size: 10px;
+    font-style: italic;
+    color: #717474;
+    background-color: #E8F8F8;
+    padding: 10px;
+}
+
+ 
+
+
+.icon-cont {
+    display: flex;
+    justify-content: end;
+
+
+}
+
+.cont {
+    display: flex;
+
+}
+
+span {
+    text-decoration: underline;
+}
+
+.hor {
+    border: solid 1px;
+    margin-left: 14px;
+    margin-right: 14px;
+
+}
+
+.article {
+    font-size: 12px;
+    font-family: Roboto;
+}
+
+.article1 {
+    font-size: 12px;
+    font-family: Roboto;
+    border: solid 2px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+
+
+}
+
+.elephant {
+    font-family: Roboto;
+    font-size: 25px;
+
+
+}
+
+.btnbg {
+    background-color: #DBECE7;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 49px;
+
+
+}
+
+.head {
+
+    height: 35px;
+    margin-right: 153px;
+    padding-top: 5px;
+
+}
+
+.headwik {
+    font-size: 18px;
+    font-family: Roboto;
+
+
+
+}
+
+.magnifying-glass {
+    margin-right: 18px;
+    font-size: 15px;
+    margin-top: 5px;
+
+}
+
+.baby {
+    border: solid gray 0.5px;
+    border-left: none;
+    border-bottom: none;
+    padding: 10px;
+
+
+
+}
+
+.random {
+    margin-left: 10px;
+    color: black;
+    font-family: Roboto;
+
+
+}
+
+.random-link {
+    text-decoration: none;
+}
+
+.rando1 {
+    margin-right: 180px;
+}
+
+.rando {
+    color: black;
+    font-family: Roboto;
+
+}
+
+.loc-icon {
+    margin-left: 6px;
+
+
+}
+
+.about {
+    display: flex;
+
+
+}
+
+.para1 {
+    margin-left: 16px;
+}
+
+.ran:hover {
+    color: gray;
+}
+
+.ran {
+    text-decoration: none;
+    font-size: 13px;
+    color: gray;
+}
