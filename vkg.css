@@ -1,24 +1,16 @@
- .table,th,td{
-    width: 100px;
-    border: 2px solid;
-    border-color: red;
-    height: 55px;
-     
- }
- .tab{
+.cont{
+background-color: red;
+height: 100vh;
+   
+
+
+
+}
+
  
-border-collapse: collapse;
- }
- td{
-    text-align: center;
- }
-th{
-    height: 30px;
-    text-transform: uppercase;
-}
-.tre{
+.child1{
     background-color: blue;
-}
-.tre3{
-    background-color: green;
+    height: 90px;
+  float: ;
+    width: 50px;
 }
