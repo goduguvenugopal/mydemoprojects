@@ -5,6 +5,24 @@
 
 }
 
+.d-fl{
+    display: flex;
+    justify-content: space-evenly;
+     
+
+}
+.gl{
+    box-sizing: border-box;
+
+}
+.serc{
+    visibility: hidden;
+      border: solid 1px gray;
+     border-radius: 20px;
+     height: 16px;
+      width: 160px;
+
+  }
 
 .ete-head {
     font-family: roboto;
@@ -181,15 +199,16 @@ span {
 .head {
 
     height: 35px;
-    margin-right: 153px;
+    margin-right: px;
     padding-top: 5px;
+    box-sizing: border-box;
 
 }
 
 .headwik {
     font-size: 18px;
     font-family: Roboto;
-
+    box-sizing: border-box;
 
 
 }
