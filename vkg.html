@@ -1,68 +1,230 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-   <link rel="stylesheet" href="vkg.css">
-   <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Document</title>
-   <link rel="stylesheet" href="vkg.css"/>
-<script src="venu.js"></script>
-</head>
-<body>
-   <table class="tab">
-      <tr class="tik">
-         <th class="head">s.no</th>
-         <th class="head">name</th>
-         <th class="head">class</th>
-         <th class="head">place</th>
-          <th class="head">city</th>
-      </tr>
-      <tr>
-         <td>1</td>
-         <td>venu</td>
-         <td>second</td>
-         <td>jkdcxnji</td>
-          <td>city</td>
-      </tr>
-      <tr>
-         <td class="data1">2</td>
-         <td>name</td>
-         <td>class</td>
-         <td>place</td>
-          <td>city</td>
-      </tr>
-      <tr>
-         <td>1</td>
-         <td>venu</td>
-         <td>second</td>
-         <td>jkdcxnji</td>
-          <td class="data"> city</td>
-      </tr>
-      <tr>
-         <td class="data1"> 2</td>
-         <td>name</td>
-         <td class="data">class</td>
-         <td class="data1">place</td>
-          <td>city</td>
-      </tr>
-      <tr>
-         <td >1</td>
-         <td>venu</td>
-         <td class="data">second</td>
-         <td>jkdcxnji</td>
-          <td>city</td>
-      </tr>
-      <tr>
-         <td>2</td>
-         <td>name</td>
-         <td class="data">class</td>
-         <td>place</td>
-          <td>city</td>
-      </tr>
+  <head>
+     
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="vkg.css"/>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>VKTourism</title>
+  </head>
+  <body style="background-color: black;">
+  <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+  <div class="container-fluid">
+    <a class="navbar-brand vk" href="#">VK<ub class="tour">Tourism</ub></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon" id="ico"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link text-white d-md-none" href="#">Plan Tour</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white  col-md-position-fixed" href="#">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#">Log in</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-white " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Country
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Singapore</a></li>
+            <li><a class="dropdown-item" href="#">Dubai</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#"><b>Now Only above menstioned countries are  <br>available for   vacation.</b> </a></li>
+          </ul>
+        </li>
+        
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success text-white " type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
 
 
-   </table>  
+
+<div id="carouselExampleControls" class="carousel slide " data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-intervel="1500">
+      <img src="https://images.pexels.com/photos/2161449/pexels-photo-2161449.jpeg?auto=compress&cs=tinysrgb&w=600" class="d-block w-100 "  alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://images.pexels.com/photos/1371360/pexels-photo-1371360.jpeg?auto=compress&cs=tinysrgb&w=600" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://images.pexels.com/photos/3769146/pexels-photo-3769146.jpeg?auto=compress&cs=tinysrgb&w=600" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src=" https://images.pexels.com/photos/4577387/pexels-photo-4577387.jpeg?auto=compress&cs=tinysrgb&w=600" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src=" https://images.pexels.com/photos/1271619/pexels-photo-1271619.jpeg?auto=compress&cs=tinysrgb&w=600" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+
+<div class=" m-3"> 
+<div class="card containe shadow text-center">
+  <h5 class="card-header ">Let's Plan the Trip</h5>
+   
+</div>
+</div>
+
+<div class=" m-3"> 
+<form class="row g-3">
+  <div class="col-md-6">
+    <label for="inputfrom" class="form-label text-white">From</label>
+    <input type="search" class="form-control" placeholder="From Location" id="inputEmail4">
+  </div>
+  <div class="col-md-6">
+    <label for="inputsearch" class="form-label text-white">To</label>
+    <input type="search" class="form-control" placeholder="To Location" id="inputPassword4">
+  </div>
+  <div class="col-12">
+    <label for="inputAddress" class="form-label text-white">Date</label>
+    <input type="date" class="form-control" id="inputAddress" placeholder="1234 Main St">
+  </div>
+  
+  <div class="col-md-6">
+    <label for="inputCity" class="form-label text-white">Number of Passengers</label>
+    <input type="number" class="form-control" placeholder="" id="inputCity">
+  </div>
+  <div class="col-md-4">
+    <label for="inputState" class="form-label text-white">Gender</label>
+    <select id="inputState" class="form-select">
+      <option selected>Choose...</option>
+      <option>Male</option>
+      <option>Female</option>
+      <option>Others</option>
+    </select>
+  </div>
+  <div class="col-md-4">
+    <label for="inputState" class="form-label text-white">Transist Mode</label>
+    <select id="inputState" class="form-select">
+      <option selected>Choose...</option>
+      <option>Bus</option>
+      <option>Train</option>
+      <option>Flight</option>
+      <option>Cruise Ship</option>
+    </select>
+  </div>
+  
+   
+  <div class="col-12">
+    <button type="submit" class="btn btn-primary">Search</button>
+  </div>
+</form>
+    
+</div>
+
+  
+<div class="row m-2">
+  <div class="col-sm-6 mb-3">
+    <div class="card ">
+      <div class="card-body">
+        <h5 class="card-title">Dubai Tour package</h5>
+        <p class="card-text"> Dubai package will be included other attractive places and accomidation. To know more about Dubai tour check it now..</p>
+        <a href="#" class="btn btn-primary">Book now</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6 mb-3">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title"> Singapore Tour package</h5>
+        <p class="card-text">Singapore package will be included other visiting places and accomidation. To know more about singapore tour check it now.</p>
+        <a href="#" class="btn btn-primary">Book Now</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6 mb-3 ">
+    <div class="card ">
+      <div class="card-body">
+        <h5 class="card-title"> Thailand Tour package</h5>
+        <p class="card-text">Thailand package will be included other attractive places and accomidation. To know more about Thailand tour check it now.. </p>
+        <a href="#" class="btn btn-primary">Book Now</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6 ">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Sri Lanka Tour package </h5>
+        <p class="card-text">Sri Lanka package will be included other attractive places and accomidation. To know more about Dubai tour check it now..</p>
+        <a href="#" class="btn btn-primary">Book Now</a>
+      </div>
+    </div>
+  </div>
+</div>
+  
+
+<div class="my-3 p-3 m-3 bg-body rounded shadow-sm">
+  <h6 class="border-bottom pb-2 mb-0">contact</h6>
+  <div class="d-flex text-muted pt-3">
+    <svg class="bd-placeholder-img flex-shrink-0 me-2 rounded" width="32" height="32" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 32x32" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#007bff"></rect><text x="50%" y="50%" fill="#007bff" dy=".3em">32x32</text></svg>
+
+    <div class="pb-3 mb-0 small lh-sm border-bottom w-100">
+      <div class="d-flex justify-content-between">
+        <strong class="text-gray-dark">Instragram</strong>
+        <a href="#">Follow</a>
+      </div>
+      <span class="d-block">@venugopalgodugu</span>
+    </div>
+  </div>
+  <div class="d-flex text-muted pt-3">
+    <svg class="bd-placeholder-img flex-shrink-0 me-2 rounded" width="32" height="32" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 32x32" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#007bff"></rect><text x="50%" y="50%" fill="#007bff" dy=".3em">32x32</text></svg>
+
+    <div class="pb-3 mb-0 small lh-sm border-bottom w-100">
+      <div class="d-flex justify-content-between">
+        <strong class="text-gray-dark">Facebook</strong>
+        <a href="#">Follow</a>
+      </div>
+      <span class="d-block">@venugopal.com</span>
+    </div>
+  </div>
+  <div class="d-flex text-muted pt-3">
+    <svg class="bd-placeholder-img flex-shrink-0 me-2 rounded" width="32" height="32" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 32x32" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#007bff"></rect><text x="50%" y="50%" fill="#007bff" dy=".3em">32x32</text></svg>
+
+    <div class="pb-3 mb-0 small lh-sm border-bottom w-100">
+      <div class="d-flex justify-content-between">
       
+        <strong class="text-gray-dark">YouTube</strong>
+        <a href="#">Follow</a>
+      </div>
+      <span class="d-block">@venugopal.com</span>
+    </div>
+  </div>
+  <small class="d-block text-end mt-3">
+    <a href="#">See More</a>
+  </small>
+</div>
+ 
 
-</body>
+<div class="container last-cont pt-2 pb-2">
+   <a class="navbar-brand vkg" href="#">VK<ub class="tour">Tourism</ub></a>
+  <hr class="hor-con" />
+  <p class="last-para text-white">Content is available under <a href="" target="_self">CC BY-SA 4.0</a> unless otherwise noted.</p>
+</div>
+
+     
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
 </html>
