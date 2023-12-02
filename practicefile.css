@@ -1,0 +1,6 @@
+.tab.th{
+    border-collapse: collapse;
+    width: 450px;
+    height: 290px;
+    border: 2px solid;
+}
