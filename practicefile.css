@@ -4,3 +4,11 @@
     height: 290px;
     border: 2px solid;
 }
+
+
+ol{
+    list-style: lower-alpha;
+}
+ul{
+    list-style: square;
+}
