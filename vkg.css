@@ -36,3 +36,70 @@
 
   
  }
+ .scroll-container{
+  background-color:white;
+  border-radius: ;
+  overflow:hidden;
+  
+   
+ }
+ .scroll-sub-container{
+  display: flex;
+  white-space: nowrap;
+   
+  
+ }
+
+.content-container{
+  display: flex;
+  
+   
+   
+}
+
+.text-content {
+  padding: 0 30px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  font-family: roboto;
+  font-weight: 600;
+  color:blue;
+  
+}
+.scroll-sub-container{
+  --marquee-speed:13s;
+  --direction:scroll-left;
+ 
+   
+}
+
+.scroll-sub-container>div{
+  animation: linear infinite var(--direction) var(--marquee-speed);
+   
+}
+
+@keyframes scroll-left{
+  0%{
+    transform: translateX(0%);
+  }
+  100%{
+    transform: translateX(-100%);
+  }
+
+}
+
+@keyframes scroll-right{
+  0%{
+    transform: translateX(-100%);
+  }
+  100%{
+    transform: translateX(0%);
+  }
+
+}
+
+
+
+
+
+
