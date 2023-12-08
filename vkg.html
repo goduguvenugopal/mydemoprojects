@@ -15,10 +15,12 @@
 
     <script>
       function myfun(){
-        alert("your details have been submitted");
+        alert("Details have been submitted");
       }
       function changecolor(x){
-         x.style.background = "yellow";
+         x.style. textTransform = "uppercase";
+         x.style.backgroundColor = "green";
+         x.style.color = "white";
       }
      </script>
 
@@ -96,7 +98,14 @@
       <div class="text-content">'Hurry up' To Grab the Hot Deal.</div>
       <div class="text-content ">30 % Discount on all country vacation</div>
        <div class="text-content ">The Deal is going to end by on 18<sup>th</sup> December. </div>
-    </div>
+       <div class="text-content">'Hurry up' To Grab the Hot Deal.</div>
+       <div class="text-content ">30 % Discount on all country vacation</div>
+        <div class="text-content ">The Deal is going to end by on 18<sup>th</sup> December. </div>
+        <div class="text-content">'Hurry up' To Grab the Hot Deal.</div>
+        <div class="text-content ">30 % Discount on all country vacation</div>
+         <div class="text-content ">The Deal is going to end by on 18<sup>th</sup> December. </div>
+         
+      </div>
   </div>
 
  </div>
@@ -113,24 +122,24 @@
 <form class="row g-3" action="" onsubmit="myfun()">
   <div class="col-md-6">
     <label for="inputfrom" class="form-label text-white">From</label>
-    <input type="search" class="form-control" onfocus="changecolor(this)"    placeholder="From Location" id="inputtext`">
+    <input type="search" class="form-control" onfocus="changecolor(this)"  maxlength="20"  placeholder="From Location" id="inputtext`">
   </div>
   <div class="col-md-6">
     <label for="inputsearch" class="form-label text-white">To</label>
-    <input type="search" class="form-control" placeholder="To Location" id="inputPassword4">
+    <input type="search" class="form-control" onfocus="changecolor(this)" placeholder="To Location" id="inputPassword4">
   </div>
   <div class="col-12">
     <label for="inputAddress" class="form-label text-white">Date</label>
-    <input type="date" class="form-control" id="inputAddress" placeholder="1234 Main St">
+    <input type="date" class="form-control"  onfocus="changecolor(this)" id="inputAddress" placeholder="1234 Main St">
   </div>
   
   <div class="col-md-6">
     <label for="inputCity" class="form-label text-white">Number of Passengers</label>
-    <input type="number" class="form-control" placeholder="" id="inputCity">
+    <input type="number" class="form-control"  onfocus="changecolor(this)" placeholder="" id="inputCity">
   </div>
   <div class="col-md-4">
     <label for="inputState" class="form-label text-white">Gender</label>
-    <select id="inputState" class="form-select">
+    <select id="inputState"  onfocus="changecolor(this)" class="form-select">
       <option selected>Choose...</option>
       <option>Male</option>
       <option>Female</option>
@@ -139,7 +148,7 @@
   </div>
   <div class="col-md-4">
     <label for="inputState" class="form-label text-white">Transist Mode</label>
-    <select id="inputState" class="form-select">
+    <select id="inputState"  onfocus="changecolor(this)" class="form-select">
       <option selected>Choose...</option>
       <option>Bus</option>
       <option>Train</option>
