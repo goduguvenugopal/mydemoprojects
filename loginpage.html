@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/20c5629a29.js" crossorigin="anonymous"></script>
+
+
+
+    <title>venuFoodmunch</title>
+    <link rel="icon" href="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/food-munch-img.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+  
+  
+  <style>
+      input:valid {
+    color: white;
+    background-color: green;
+}
+
+.container12 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    background-color: black;
+}
+
+
+
+
+
+.spinner1 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: solid 5px white;
+    border-top: 5px solid blue;
+
+    animation-name: spin;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+
+
+
+
+}
+
+
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+
+    }
+
+
+
+    100% {
+        transform: rotate(360deg);
+
+    }
+
+
+
+}
+
+.loader {
+    font-size: 20px;
+    position: absolute;
+    font-family: roboto;
+    color: white;
+
+}
+
+.login-k {
+    border: solid;
+    padding: 5px;
+    border-color: blue;
+}
+
+.forgot-pass {
+    text-decoration: none;
+}
+
+
+.span {
+    text-decoration: underline;
+}
+
+
+.login-contra {
+    height: 150px;
+    background-image: linear-gradient(blue, pink, blue);
+
+}
+
+.logo-image {
+    width: 160px;
+    padding: 10px;
+
+}
+
+
+
+.food-head {
+    font-size: 28px;
+    font-family: Roboto;
+    font-weight: bold;
+    background: linear-gradient(to right, red, green, blue);
+    color: transparent;
+    -webkit-background-clip: text;
+
+
+
+
+}
+
+.email-name {
+    font-size: 22px;
+    font-family: Roboto;
+
+
+}
+
+.horizontal {
+    color: black;
+    font-size: 20px;
+
+
+}
+
+.caption {
+    font-size: 15px;
+    font-family: Roboto;
+
+}
+
+.email-box {
+    border-radius: 10px;
+    width: 260px;
+
+}
+
+.bg-cont {
+    background-color: blue;
+    width: 0px;
+    border-radius: 8px;
+    width: 135px;
+    height: 37px;
+    font-family: Roboto;
+    font-size: 22px;
+    color: white;
+    margin-top: 16px;
+}
+
+.follow-section-cont {
+    background-color: white;
+    text-align: center;
+}
+
+.follow-heading {
+    font-family: roboto;
+    font-weight: 700;
+    font-size: 28px;
+    text-align: center;
+}
+
+.icon-container {
+    width: 80px;
+    height: 80px;
+    padding-top: 22px;
+    padding-bottom: 14px;
+    background-color: black;
+    padding-right: 16px;
+    padding-left: 22px;
+    margin: 15px;
+    border-radius: 40px;
+
+
+}
+
+.icon {
+    font-size: 35px;
+    color: blue;
+
+}
+
+.logo-last-cont {
+    background-color: black;
+}
+
+.logo-last-img {
+    width: 120px;
+
+}
+
+.email {
+    font-size: 20px;
+    font-family: roboto;
+    color: white;
+}
+
+.address-para {
+    font-size: 16px;
+    font-family: roboto;
+    color: white;
+}
+
+.loadercont {
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100vh;
+}
+
+.spinner {
+    margin-bottom: 79px;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    border-radius: 50%;
+    border-top: 5px solid blue;
+    border: solid 5px white;
+    animation-name: spinner;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+}
+
+@keyframes spinner {
+    0% {
+        transform: rotate(0deg);
+
+    }
+
+    100% {
+        transform: rotate(360deg);
+
+    }
+}
+
+.loader {
+
+    font-size: 15px;
+    font-family: roboto;
+    color: white;
+
+}
+  </style>
+
+
+
+</head>
+
+<body>
+    <div class="javacont">
+        <div class="login-contra text-center">
+
+            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/food-munch-img.png" class="logo-image mb-5 ml-5" />
+
+        </div>
+        <div class="login-section pt-3 pb-3">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="login-k text-center bg-info mb-1">
+                            <h class="food-head ">Welcome to <br> Food Munch</h>
+
+                        </div>
+                        <hr />
+
+                        <div class="form-cont d-flex flex-row justify-content-center">
+                            <form action="https://venuprojects12.ccbp.tech/?" target="_self">
+
+                                <h class="email-name">Email address</h><br />
+                                <input type="email" name="email" class="email-box mt-2 mb-2" placeholder=" Username or phone number" required><br />
+                                <p class="caption pb-2">We'll never share your email with anyone else</p>
+                                <h class="email-name">Password</h><br />
+
+                                <input type="password" class="email-box mt-2 mb-3" placeholder=" Enter password" maxlength="8" minlength="8" required><br />
+
+                                <input type="checkbox">
+                                <h class="caption">Remember me</h>
+                                <a href="" class="forgot-pass ml-3">Forgot password?</a><br>
+
+                                <input type="submit" class="bg-cont bg-primary mb-4" id="redirect" value="Log in">
+
+                                <p class="caption">By clicking log in, you are agreeing to the<br> <span class="span">terms and services</span> of Foodmunch company.</p>
+                                <h class="caption">Don't have account?
+                                    <a href="https://venuloginpage.ccbp.tech/" class="forgot-pass">Create an Account</a>
+                                </h>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr />
+
+        </div>
+
+
+
+        <div class="follow-section-cont pt-1 pb-5" id="follow-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h class="follow-heading">Follow Us</h>
+                        <div class="d-flex flex-row justify-content-center mt-3">
+                            <div class="icon-container">
+                                <a href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoiZW4ifQ%3D%3D%22%7D" target="_blank"><i class="fab fa-twitter icon"></i></a>
+                            </div>
+                            <div class="icon-container">
+                                <a href="https://instagram.com/venu_gopal_godugu?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D" target="_blank"><i class="fab fa-instagram icon">"</i></a>
+                            </div>
+                            <div class="icon-container">
+                                <a href="https://www.facebook.com/profile.php?id=100006681679031&mibextid=ZbWKwL" target="_blank"><i class="fab fa-facebook icon"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="logo-last-cont text-center pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="text-center">
+                            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/food-munch-img.png" class="logo-last-img mb-4" />
+                        </div>
+                        <h class="email">Email:venufoodmunch@gmail.com</h>
+                        <p class="address-para mt-3">518412 Pagidyala, Kurnool, Andhra pradesh, India.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+
+
+    </div>
+
+
+    <div class="container12 d-">
+        <div class="spinner1 mb-5">
+        </div>
+        <span class="loader mt-5">Please wait the page is Loading...</span>
+
+    </div>
+    <script>
+        let btnEle = document.getElementById('redirect');
+        let container12 = document.querySelector('.container12');
+        let conEle = document.querySelector('.javacont');
+
+        btnEle.onclick = function() {
+            conEle.style.display = "none";
+            container12.style.display = "block";
+            setTimeout(function() {
+                container12.style.display = "none";
+                window.open("https://venuprojects12.ccbp.tech/", "_self")
+            }, 3000);
+        }
+    </script>
+
+</body>
+
+</html>
