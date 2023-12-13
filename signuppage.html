@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/20c5629a29.js" crossorigin="anonymous"></script>
+
+
+
+    <title>venuFoodmunch</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
+    <style>
+        .par {
+    font-family: roboto;
+}
+
+.bt {
+    font-size: 20px;
+    font-family: roboto;
+    border-radius: 20px;
+    border-width: 0px;
+    background-color: #82E513;
+    color: white;
+    width: 200px;
+    height: 40px;
+
+}
+
+.circle {
+    height: 100px;
+    width: 100px;
+    margin: auto;
+    color: white;
+
+}
+
+.bg-cont {
+    background-color: #82E513;
+
+}
+
+.cong {
+    font-size: 28px;
+    color: white;
+    font-family: roboto;
+    font-weight: bold;
+}
+
+.gender-cont {
+    margin-right: 22px;
+
+}
+
+.radio {
+    font-family: Roboto;
+}
+
+.login-contra {
+    height: 150px;
+    background-image: linear-gradient(blue, pink, blue);
+
+}
+
+.logo-image {
+    width: 160px;
+    padding: 10px;
+
+}
+
+.new-account {
+    font-size: 28px;
+    font-family: Roboto;
+    font-weight: bolder;
+    color: blue;
+}
+
+.box-cont {
+    background-color: white;
+
+    border-radius: 8px;
+    border: solid;
+    margin: 16px;
+    border-color: blue;
+
+}
+
+.email-name {
+    font-size: 17px;
+    font-family: Roboto;
+    font-weight: bold;
+    color: black;
+
+}
+
+.box {
+    width: 240px;
+    border-radius: 9px;
+}
+
+.dot {
+    color: red;
+}
+
+.follow-section-cont {
+    background-color: white;
+    text-align: center;
+}
+
+.follow-heading {
+    font-family: roboto;
+    font-weight: 700;
+    font-size: 28px;
+    text-align: center;
+}
+
+.icon-container {
+    width: 80px;
+    height: 80px;
+    padding-top: 22px;
+    padding-bottom: 14px;
+    background-color: black;
+    padding-right: 16px;
+    padding-left: 22px;
+    margin: 15px;
+    border-radius: 40px;
+
+
+}
+
+.icon {
+    font-size: 35px;
+    color: blue;
+
+}
+
+.logo-last-cont {
+    background-color: black;
+}
+
+.logo-last-img {
+    width: 120px;
+
+}
+
+.email {
+    font-size: 20px;
+    font-family: roboto;
+    color: white;
+}
+
+.address-para {
+    font-size: 16px;
+    font-family: roboto;
+    color: white;
+}
+    </style>
+
+</head>
+
+<body>
+
+    <div class="login-contra text-center">
+        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/food-munch-img.png" class="logo-image mb-5 ml-5" />
+    </div>
+
+
+    <div class="box-cont  shadow pt-5 pb-5 mb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 mb-4 d-flex flex-row justify-content-center">
+                    <div class="">
+                        <h class="new-account">Create an Account </h>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 d-flex flex-row justify-content-center">
+
+                    <form action="">
+                        <h class="email-name">Full Name <span class="dot">*</span></h><br>
+                        <input type="text" class="box mt-1 mb-4" required maxlength="15" placeholder=" Enter your name"><br>
+
+                        <h class="email-name">Username <span class="dot">*</span></h><br>
+                        <input type="text" class="box mt-1 mb-4" required  maxlength="15" placeholder=" Enter your username"><br>
+                        <h class="email-name">Mobile <span class="dot">*</span></h><br>
+                        <input type="number" class="box mt-1 mb-4" placeholder=" Enter your number"><br>
+                    </form>
+                </div>
+
+                <div class="col-12 col-md-6 d-flex flex-row justify-content-center">
+                    <form action="">
+                        <h class="email-name">Email <span class="dot">*</span></h><br>
+                        <input type="email" name="email" class="box mt-1 mb-4" required placeholder=" Enter your email"><br>
+                        <h class="email-name">Password <span class="dot">*</span></h><br>
+                        <input type="password" class="box mt-1 mb-4" required maxlength="8" minlenth="8" placeholder=" Enter your password"><br>
+                        <h class="email-name">Confirm Password <span class="dot">*</span></h><br>
+                        <input type="password" class="box mt-1 mb-4" required maxlength="8" minlenth="8" placeholder=" confirm your password"><br>
+
+                    </form>
+                </div>
+                <div class="col-12 col-md-6 d-flex gender-cont flex-row justify-content-center">
+
+                    <form action="" class="gender-cont">
+                        <h class="email-name ">Gender</h><br>
+                        <input type="radio" class="" name="male">
+                        <h class="radio">Male</h>
+                        <input type="radio" class="ml-2" name="male">
+                        <h class="radio">Female</h>
+                        <input type="radio" class="ml-2 " name="male">
+                        <h class="radio">Others</h><br>
+
+                        <input type="checkbox" class="mt-2">
+                        <h class="radio">I agree to terms of service</h><br>
+
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn-primary mb-4 mt-3" data-toggle="modal" data-target="#exampleModal">
+                            Sign up
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content mt-5 pb-4">
+                                    <div class="modal-header bg-cont d-flex flex-column justify-content-center">
+
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-check-circle circle mt-4" viewBox="0 0 16 16">
+                                            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                                            <path d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z" />
+                                        </svg>
+                                        <div class="mt-3">
+                                            <h class="cong">SUCCESS</h>
+                                        </div>
+                                    </div>
+                                    <div class="modal-body mt-3 text-center">
+                                        <p class="par">Congratulations, your account has been successfuly created.</p>
+
+                                        <button class="bt mt-2">Continue</button>
+                                    </div>
+                                    <h class="radio text-center">Go to <a href="https://venuprojects18.ccbp.tech/">Log in</a></h>
+
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+                <h class="radio text-center">Already have an account?<a href="https://venuprojects18.ccbp.tech/">Log in</a></h>
+
+            </div>
+        </div>
+    </div>
+    <hr />
+    <div class="follow-section-cont pt-5 pb-5" id="follow-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h class="follow-heading">Follow Us</h>
+                    <div class="d-flex flex-row justify-content-center mt-3">
+                        <div class="icon-container">
+                            <a href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoiZW4ifQ%3D%3D%22%7D" target="_blank"><i class="fab fa-twitter icon"></i></a>
+                        </div>
+                        <div class="icon-container">
+                            <a href="https://instagram.com/venu_gopal_godugu?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D" target="_blank"><i class="fab fa-instagram icon">"</i></a>
+                        </div>
+                        <div class="icon-container">
+                            <a href="https://www.facebook.com/profile.php?id=100006681679031&mibextid=ZbWKwL" target="_blank"><i class="fab fa-facebook icon"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="logo-last-cont text-center pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="text-center">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/food-munch-img.png" class="logo-last-img mb-4" />
+                    </div>
+                    <h class="email">Email:venufoodmunch@gmail.com</h>
+                    <p class="address-para mt-3">518412 Pagidyala, Kurnool, Andhra pradesh, India.</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+</body>
+
+</html>
