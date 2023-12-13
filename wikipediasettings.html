@@ -1,0 +1,377 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+   
+    <style>
+        .btnbg {
+    background-color: #DBECE7;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 49px;
+
+
+}
+
+.head {
+
+    height: 35px;
+    margin-right: 153px;
+    padding-top: 5px;
+
+}
+
+.headwik {
+    font-size: 18px;
+    font-family: Roboto;
+
+
+
+}
+
+.magnifying-glass {
+    margin-right: 18px;
+    font-size: 15px;
+    margin-top: 5px;
+
+}
+
+.baby {
+    border: solid gray 0.5px;
+    border-left: none;
+    border-bottom: none;
+    padding: 10px;
+
+
+
+}
+
+.random {
+    margin-left: 10px;
+    color: black;
+    font-family: Roboto;
+
+
+}
+
+.random-link {
+    text-decoration: none;
+}
+
+.rando1 {
+    margin-right: 180px;
+}
+
+.rando {
+    color: black;
+    font-family: Roboto;
+
+}
+
+.loc-icon {
+    margin-left: 6px;
+
+
+}
+
+.button {
+    background-color: #DBECE7;
+    border: none;
+}
+
+.about {
+    display: flex;
+
+
+}
+
+.para1 {
+    margin-left: 16px;
+}
+
+.ran:hover {
+    color: gray;
+}
+
+.ran {
+    text-decoration: none;
+    font-size: 13px;
+    color: gray;
+}
+
+.set-cont {
+    height: 50px;
+
+
+}
+
+.set-head {
+    font-family: roboto;
+
+}
+
+.f-head {
+    font-size: 15px;
+    font-weight: bold;
+    font-family: roboto;
+
+
+}
+
+.f-para {
+    font-size: 11px;
+
+    font-family: roboto;
+
+}
+
+.select-cont {
+    width: 115px;
+    background-color: #EAF7F7;
+    border-radius: 3px;
+    height: 30px;
+
+
+}
+
+.op {
+    font-size: 15px;
+    font-family: roboto;
+
+}
+
+.s-cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type="checkbox"] {
+    width: 55px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: white;
+    appearance: none;
+    border: solid 2px blue;
+    position: relative;
+    transition: 0.5s;
+
+
+}
+
+input:checked[type="checkbox"] {
+    background-color: blue;
+
+
+}
+
+input[type="checkbox"]::before {
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    content: "";
+    top: 1px;
+    left: 0;
+    right: 0;
+    border: solid 1.5px blue;
+    transition: 0.5s;
+    margin-left: 2px;
+
+
+}
+
+
+
+input:checked[type="checkbox"]::before {
+    left: 26px;
+
+
+}
+
+.w-cont {
+    background-color: #DEF7F5;
+    height: 130px;
+
+}
+
+.h-h {
+    font-size: 12px;
+    font-family: roboto;
+    text-decoration: none;
+    margin-right: 10px;
+}
+       .searchbar{
+         
+        position: fixed;
+        right: 53px;
+        width: 140px;
+        border: 1px solid;
+        border-radius: 9px;
+        top: 13px;
+
+       }
+    
+   </style>
+   
+
+
+
+</head>
+   
+<body>
+    <div class="btnbg container-fluid fixed-top">
+        <button class="bt gn mt-1 ml-0 pl-0 mr-2 button" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions"><svg xmlns="http://www.w3.org/2000/svg" height="1.2em" viewBox="0 0 448 512">
+                <path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z" />
+            </svg></button>
+        <div class="head">
+            <h class="headwik fw-medium"><big>W</big>IKIPEDIA</h>
+        </div>
+        <input type="search" class="searchbar"  placeholder="  Search">
+
+
+        <a href="" class="random-link" target="_self"><svg xmlns="http://www.w3.org/2000/svg" class="magnifying-glass" height="1.2em" viewBox="0 0 512 512">
+                <path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z" />
+            </svg></a>
+    </div>
+    <div class="offcanvas offcanvas-start" style="background-color:#CEF4F5;" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+        <div class="offcanvas-header bg-light  pb-2">
+            <h></h>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+
+
+        <div class="baby bg-light  container">
+            <svg xmlns="http://www.w3.org/2000/svg" class="loc-icon" height="1em" viewBox="0 0 576 512">
+                <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                <path d="M575.8 255.5c0 18-15 32.1-32 32.1h-32l.7 160.2c0 2.7-.2 5.4-.5 8.1V472c0 22.1-17.9 40-40 40H456c-1.1 0-2.2 0-3.3-.1c-1.4 .1-2.8 .1-4.2 .1H416 392c-22.1 0-40-17.9-40-40V448 384c0-17.7-14.3-32-32-32H256c-17.7 0-32 14.3-32 32v64 24c0 22.1-17.9 40-40 40H160 128.1c-1.5 0-3-.1-4.5-.2c-1.2 .1-2.4 .2-3.6 .2H104c-22.1 0-40-17.9-40-40V360c0-.9 0-1.9 .1-2.8V287.6H32c-18 0-32-14-32-32.1c0-9 3-17 10-24L266.4 8c7-7 15-8 22-8s15 2 21 7L564.8 231.5c8 7 12 15 11 24z" />
+            </svg>
+
+            <a href="D:\git-tut\wikipedia.html" class="random-link" target="_blank">
+                <h class="random">Home</h>
+            </a>
+        </div>
+        <div class="baby bg-light  container">
+            <svg xmlns="http://www.w3.org/2000/svg" height="1em" class="loc-icon" viewBox="0 0 448 512">
+                <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                <path d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-45.7 48C79.8 304 0 383.8 0 482.3C0 498.7 13.3 512 29.7 512H418.3c16.4 0 29.7-13.3 29.7-29.7C448 383.8 368.2 304 269.7 304H178.3z" />
+            </svg>
+            <a href="" class="random-link" target="_self">
+                <h class="random">Contact</h>
+            </a>
+
+        </div>
+        <div class="baby bg-light  container">
+            <svg xmlns="http://www.w3.org/2000/svg" class="loc-icon " height="1em" viewBox="0 0 384 512">
+                <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                <path d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 128a64 64 0 1 1 0 128 64 64 0 1 1 0-128z" />
+            </svg>
+            <a href="" class="random-link" target="_self">
+                <h class="random pl-1">Nearby</h>
+            </a>
+
+
+        </div>
+        <div class="baby bg-light  container">
+            <svg xmlns="http://www.w3.org/2000/svg" height="1em" class="loc-icon" viewBox="0 0 512 512">
+                <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                <path d="M217.9 105.9L340.7 228.7c7.2 7.2 11.3 17.1 11.3 27.3s-4.1 20.1-11.3 27.3L217.9 406.1c-6.4 6.4-15 9.9-24 9.9c-18.7 0-33.9-15.2-33.9-33.9l0-62.1L32 320c-17.7 0-32-14.3-32-32l0-64c0-17.7 14.3-32 32-32l128 0 0-62.1c0-18.7 15.2-33.9 33.9-33.9c9 0 17.6 3.6 24 9.9zM352 416l64 0c17.7 0 32-14.3 32-32l0-256c0-17.7-14.3-32-32-32l-64 0c-17.7 0-32-14.3-32-32s14.3-32 32-32l64 0c53 0 96 43 96 96l0 256c0 53-43 96-96 96l-64 0c-17.7 0-32-14.3-32-32s14.3-32 32-32z" />
+            </svg>
+            <a href="" class="random-link" target="_self">
+                <h class="random">Log in</h>
+            </a>
+
+
+        </div>
+        <div class="baby bg-light  container">
+            <svg xmlns="http://www.w3.org/2000/svg" height="1em" class="loc-icon" viewBox="0 0 512 512">
+                <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                <path d="M495.9 166.6c3.2 8.7 .5 18.4-6.4 24.6l-43.3 39.4c1.1 8.3 1.7 16.8 1.7 25.4s-.6 17.1-1.7 25.4l43.3 39.4c6.9 6.2 9.6 15.9 6.4 24.6c-4.4 11.9-9.7 23.3-15.8 34.3l-4.7 8.1c-6.6 11-14 21.4-22.1 31.2c-5.9 7.2-15.7 9.6-24.5 6.8l-55.7-17.7c-13.4 10.3-28.2 18.9-44 25.4l-12.5 57.1c-2 9.1-9 16.3-18.2 17.8c-13.8 2.3-28 3.5-42.5 3.5s-28.7-1.2-42.5-3.5c-9.2-1.5-16.2-8.7-18.2-17.8l-12.5-57.1c-15.8-6.5-30.6-15.1-44-25.4L83.1 425.9c-8.8 2.8-18.6 .3-24.5-6.8c-8.1-9.8-15.5-20.2-22.1-31.2l-4.7-8.1c-6.1-11-11.4-22.4-15.8-34.3c-3.2-8.7-.5-18.4 6.4-24.6l43.3-39.4C64.6 273.1 64 264.6 64 256s.6-17.1 1.7-25.4L22.4 191.2c-6.9-6.2-9.6-15.9-6.4-24.6c4.4-11.9 9.7-23.3 15.8-34.3l4.7-8.1c6.6-11 14-21.4 22.1-31.2c5.9-7.2 15.7-9.6 24.5-6.8l55.7 17.7c13.4-10.3 28.2-18.9 44-25.4l12.5-57.1c2-9.1 9-16.3 18.2-17.8C227.3 1.2 241.5 0 256 0s28.7 1.2 42.5 3.5c9.2 1.5 16.2 8.7 18.2 17.8l12.5 57.1c15.8 6.5 30.6 15.1 44 25.4l55.7-17.7c8.8-2.8 18.6-.3 24.5 6.8c8.1 9.8 15.5 20.2 22.1 31.2l4.7 8.1c6.1 11 11.4 22.4 15.8 34.3zM256 336a80 80 0 1 0 0-160 80 80 0 1 0 0 160z" />
+            </svg>
+            <a href="" class="random-link" target="_self">
+                <h class="random">Settings</h>
+            </a>
+
+
+        </div>
+        <div class="baby bg-light  container">
+            <svg xmlns="http://www.w3.org/2000/svg" height="1em" class="loc-icon" viewBox="0 0 512 512">
+                <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                <path d="M47.6 300.4L228.3 469.1c7.5 7 17.4 10.9 27.7 10.9s20.2-3.9 27.7-10.9L464.4 300.4c30.4-28.3 47.6-68 47.6-109.5v-5.8c0-69.9-50.5-129.5-119.4-141C347 36.5 300.6 51.4 268 84L256 96 244 84c-32.6-32.6-79-47.5-124.6-39.9C50.5 55.6 0 115.2 0 185.1v5.8c0 41.5 17.2 81.2 47.6 109.5z" />
+            </svg>
+            <a href="" class="random-link" target="_self">
+                <h class="random">Donate</h>
+            </a>
+
+
+        </div>
+        <div class="about pt-4 pl-3">
+            <a href="" target="_self" class="ran">
+                <p class="para1  ">About Wikipedia</p>
+            </a>
+            <a href="" target="_self" class="ran">
+                <p class="para1 ">Disclaimers </p>
+            </a>
+        </div>
+    </div>
+
+    <div class="container set-cont   pt-4 mt-5">
+        <h class="set-head fs-3 fw-bold ">Settings</h>
+    </div>
+    <hr />
+    <div class=" container mr-3 f-cont d-flex justify-content-between">
+        <div class="col-6 col-m-12">
+            <h class="f-head  ">Font size</h>
+            <p class="f-para">Adjust font size for better readability.</p>
+        </div>
+        <div class="s-cont ">
+            <select class="select-cont px-2">
+                <option class="op">Extra large</option>
+                <option class="op">Regular</option>
+                <option class="op">Large</option>
+                <option class="op">Extra large</option>
+            </select>
+        </div>
+
+    </div>
+    <hr />
+
+    <div class=" container mr-3 f-cont d-flex justify-content-between">
+        <div class="col-7 col-m-12">
+            <h class="f-head "> Expand all sections</h>
+            <p class="f-para">Always expand sections of content pages by default.</p>
+        </div>
+        <div class="s-cont ">
+            <input type="checkbox" name="checkbox">
+
+        </div>
+
+    </div>
+    <hr />
+
+    <div class="container-fluid fixed-bottom pt-4 fw-bold w-cont">
+        <h class=""><BIG>W</BIG>IKIPEDIA</h>
+        <hr />
+        <a href="" class="h-h pr-3" target="_self">Terms of use.</a>
+        <a href="" class=" h-h " target="_self"> privacy policy.</a>
+        <a href="" class=" h-h" target="_self">Desktop.</a>
+    </div>
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+
+</html>
