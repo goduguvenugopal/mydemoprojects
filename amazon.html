@@ -2,7 +2,14 @@
 <html>
 
 <head>
-    <title>vamazon</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+   
+    <title>amazon</title>
     <link rel="stylesheet" href="amazon.css">
     <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHfD7Lblmakn7HeppRW_k91sgjZCIGdGtVJA&usqp=CAU">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
@@ -11,14 +18,409 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="https://kit.fontawesome.com/6745983728.js" crossorigin="anonymous"></script>
+
+  <style>
+     
+.amazon {
+    background-color: #77F5E4;
+    height: 75px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 32px;
+
+
+
+}
+
+.icon-cont1 {
+    background-color: white;
+    width: 40px;
+    height: 33px;
+    padding-left: 9px;
+    padding-top: 4px;
+    border: solid;
+    border-width: 1px;
+    border-color: gray;
+    border-right: none;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+
+
+
+}
+
+.icon-cont2 {
+    background-color: white;
+    width: 40px;
+    height: 33px;
+    padding-left: 7px;
+    border: solid;
+    padding-top: 1px;
+    border-width: 1px;
+    border-left: none;
+    border-color: gray;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.mic-icon {
+    height: 18px;
+
+
+}
+
+.scan-icon {
+    margin-top: 6px;
+    height: 18px;
+    width: 18px;
+    margin-left: 10px;
+}
+
+    
+
+.search-input {
+    border-right: none;
+    border-left: none;
+    width: 200px;
+    height: 33px;
+    border-color: gray;
+    border-width: 1px;
+   
+}
+
+.location-cont {
+    background-color: #B4EDE5;
+    height: 35px;
+    margin-top: 75px;
+}
+
+.head-location {
+    font-size: 12px;
+    font-family: roboto;
+}
+
+.location-icon {
+    font-family: Roboto;
+}
+
+.angle-icon {
+
+    font-size: 12px;
+}
+
+.categories-card {
+    background-color: white;
+    height: 80px;
+    display: flex;
+}
+
+.img-categories {
+    height: 44px;
+    width: 44px;
+
+}
+
+.img-main-cont {
+    height: 44px;
+    width: 57px;
+    text-align: center;
+
+}
+
+.head-categories {
+    font-size: 10px;
+    font-family: Roboto;
+
+
+}
+
+.img-pay {
+    height: 80px;
+    width: 75px;
+
+}
+
+.img-pay1 {
+    padding-top: 5px;
+    height: 60px;
+    width: 75px;
+}
+
+.prime-head1 {
+    font-size: 9px;
+    font-family: roboto;
+
+
+}
+
+.fashion-cont {
+
+    margin-right: 10px;
+    width: 250px;
+    padding-bottom: 10px;
+
+}
+
+.fashion-img {
+    height: 150px;
+    width: 55px;
+
+}
+
+.row-cont {
+    width: 170px;
+    margin-right: 10px;
+    margin-left: 15px;
+}
+
+.trimmer-cont {
+
+    background-color: white;
+
+}
+
+.trimmer-img {
+    width: 100%;
+    height: 100px;
+
+}
+
+.sponsor-cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 3px;
+}
+
+.deals {
+    font-size: 11px;
+    color: #258DA2;
+    font-family: roboto;
+}
+
+.head-sponsor {
+    font-size: 9px;
+    font-family: roboto;
+
+}
+
+.keep-heading {
+    font-family: roboto;
+    font-weight: bold;
+    font-size: 19px;
+}
+
+.img-keep {
+    height: 180px;
+    width: 120px;
+}
+
+.img-keep1 {
+    height: 180px;
+    width: 100px;
+}
+
+.img-keep0 {
+    height: 180px;
+    width: 115px;
+}
+
+.rupee-icon {
+    height: 10px;
+    width: 10px;
+    margin-bottom: 7px;
+
+}
+
+.rupee-cont {
+
+    margin-bottom: 10px;
+}
+
+.amount-head {
+    font-family: roboto;
+    font-weight: bold;
+}
+
+.img-60 {
+    height: 140px;
+    width: 140px;
+}
+
+.conti {
+    background-color: white;
+}
+
+.horizontal {
+    border-width: 3px;
+}
+
+.parent-cont {
+    display: grid;
+    grid-template-columns: 110px 110px 110px;
+    grid-template-rows: 110px 110px 110px;
+    grid-row-gap: 10px;
+    justify-items: center;
+
+}
+
+.img-child1 {
+
+    height: 90px;
+    width: 80px;
+
+}
+
+.gobuds {
+    background-color: white;
+}
+
+.buds-cont {
+    background-color: white;
+    border: solid 1px #A8A9AA;
+
+
+}
+
+.buds-img {
+    height: 100px;
+    width: 100px;
+
+}
+
+.buds-head {
+    font-size: 12px;
+    font-family: roboto;
+
+}
+
+.star-icon {
+    color: yellow;
+    font-size: 14px;
+
+}
+
+.star-icon1 {
+    font-size: 14px;
+
+}
+
+.span-cont {
+    background-color: red;
+    color: white;
+    font-size: 10px;
+    padding: 5px;
+    margin-right: 4px;
+}
+
+.off-head {
+    font-size: 10px;
+    color: red;
+    font-family: roboto;
+    font-weight: bold;
+
+}
+
+.prime-head {
+    font-size: 13px;
+    font-family: roboto;
+    color: red;
+    font-weight: bold;
+}
+
+.iconrupee {
+    font-size: 10px;
+    color: red;
+    padding-top: opx;
+}
+
+.span-prime {
+    font-size: 9px;
+    font-family: roboto;
+    text-decoration: line-through;
+    color: gray;
+    padding-right: 3px;
+    padding-left: 1px;
+}
+
+.iconrupee1 {
+    font-size: 8px;
+    color: gray;
+
+
+}
+
+.check-icon {
+    font-size: 7px;
+    color: orange;
+    padding-right: 1px;
+}
+
+.prime-span1 {
+    color: #20A6EA;
+    font-size: 10px;
+    font-family: roboto;
+    font-weight: bold;
+
+}
+
+.deals-con {
+    background-color: white;
+
+}
+
+.deals-parent-cont {
+    display: grid;
+    background-color: white;
+    grid-template-columns: 157px 157px;
+    grid-template-rows: 105px 105px;
+    justify-content: center;
+    grid-row-gap: 24px;
+    grid-column-gap: 15px;
+    align-items: center;
+
+
+}
+
+.Featured-cont {
+    margin-right: 18px;
+}
+
+.featured-img {
+    height: 130px;
+    width: 100px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+
+}
+
+.head-feature {
+    font-size: 9px;
+    font-family: roboto;
+
+}
+  </style>
+ 
 </head>
 
 <body>
+     
+    <script>
+         
+             
+      
+    </script>
+
+
+
     <div class="amazon fixed-top">
         <div class="icon-cont1 ">
             <i class="fa-solid fa-magnifying-glass icon"></i>
         </div>
-        <input type="search" class="search-input " placeholder=" Search Amazon.in">
+        <input type="search" class="search-input "  placeholder=" Search Amazon.in" id="borderrem">
         <div class="icon-cont2 ">
             <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-mic mic-icon" viewBox="0 0 16 16">
                 <path d="M3.5 6.5A.5.5 0 0 1 4 7v1a4 4 0 0 0 8 0V7a.5.5 0 0 1 1 0v1a5 5 0 0 1-4.5 4.975V15h3a.5.5 0 0 1 0 1h-7a.5.5 0 0 1 0-1h3v-2.025A5 5 0 0 1 3 8V7a.5.5 0 0 1 .5-.5z" />
