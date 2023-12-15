@@ -1,0 +1,145 @@
+<style>
+.par {
+font-family: roboto;
+}
+
+.bt {
+font-size: 20px;
+font-family: roboto;
+border-radius: 20px;
+border-width: 0px;
+background-color: #82E513;
+color: white;
+width: 200px;
+height: 40px;
+
+}
+
+.circle {
+height: 100px;
+width: 100px;
+margin: auto;
+color: white;
+
+}
+
+.bg-cont {
+background-color: #82E513;
+
+}
+
+.cong {
+font-size: 28px;
+color: white;
+font-family: roboto;
+font-weight: bold;
+}
+
+.gender-cont {
+margin-right: 22px;
+
+}
+
+.radio {
+font-family: Roboto;
+}
+
+.login-contra {
+height: 150px;
+background-image: linear-gradient(blue, pink, blue);
+
+}
+
+.logo-image {
+width: 160px;
+padding: 10px;
+
+}
+
+.new-account {
+font-size: 28px;
+font-family: Roboto;
+font-weight: bolder;
+color: blue;
+}
+
+.box-cont {
+background-color: white;
+
+border-radius: 8px;
+border: solid;
+margin: 16px;
+border-color: blue;
+
+}
+
+.email-name {
+font-size: 17px;
+font-family: Roboto;
+font-weight: bold;
+color: black;
+
+}
+
+.box {
+width: 240px;
+border-radius: 9px;
+}
+
+.dot {
+color: red;
+}
+
+.follow-section-cont {
+background-color: white;
+text-align: center;
+}
+
+.follow-heading {
+font-family: roboto;
+font-weight: 700;
+font-size: 28px;
+text-align: center;
+}
+
+.icon-container {
+width: 80px;
+height: 80px;
+padding-top: 22px;
+padding-bottom: 14px;
+background-color: black;
+padding-right: 16px;
+padding-left: 22px;
+margin: 15px;
+border-radius: 40px;
+
+
+}
+
+.icon {
+font-size: 35px;
+color: blue;
+
+}
+
+.logo-last-cont {
+background-color: black;
+}
+
+.logo-last-img {
+width: 120px;
+
+}
+
+.email {
+font-size: 20px;
+font-family: roboto;
+color: white;
+}
+
+.address-para {
+font-size: 16px;
+font-family: roboto;
+color: white;
+}
+</style>
