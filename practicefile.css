@@ -1,1 +1,25 @@
-  
+  .btn{
+    width:160px;
+    height: 30px;
+    border-radius: 23px;
+    border-width: 0px;
+    background-color: blue;
+    color: white;
+    font-size: 19px;
+    font-weight: bold;
+  }
+
+  .cont{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .para{
+    font-size: 19px;
+    font-family: roboto;
+    font-weight: bold;
+    color: red;
+  }
